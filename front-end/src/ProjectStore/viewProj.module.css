@@ -1,0 +1,58 @@
+:root{
+    --main-color : #13bbff;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+  }
+  *{
+    color: var(--text-color);
+  }
+
+.details{
+    margin-left: 25rem;
+    width: 50rem;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.status{
+    text-align: center;
+}
+.btn{
+  color: var(--main-color);
+  background-color: var(--bg-color);
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+.items p{
+  font-size: 30px;
+}
+.projects{
+  margin-top: 3rem;
+}
+.heading{
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading input{
+  margin-top: 15px;
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  border: 1px solid white;
+  
+}
+.search{
+  padding: 10px;
+}

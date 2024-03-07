@@ -1,0 +1,24 @@
+:root{
+    --main-color : #13bbff;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+  }
+.maincontainer{
+    margin: 0 25% 0 25%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50rem;
+    height: auto;
+}
+.items p{
+    border: 0.5px solid gray;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.items p a{
+    text-decoration: underline;
+}
+span{
+    color: var(--main-color);
+}

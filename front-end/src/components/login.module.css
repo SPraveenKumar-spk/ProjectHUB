@@ -1,0 +1,41 @@
+:root{
+    --main-color : #13bbff;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+  }
+.login{
+    display: flex;
+    justify-content: space-around;
+}
+.signin{
+    padding-top: 6rem;
+}
+h1{
+    font-size: 60px;
+    color:#13bbff ;
+}
+.labelstyle{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.inputstyle{
+    width: 100%;
+    height: 30px;
+    background-color: var(--bg-color);
+}
+.submit{
+    padding-top: 15px;
+}
+.submit button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+.details{
+    padding-top: 8px; 
+}

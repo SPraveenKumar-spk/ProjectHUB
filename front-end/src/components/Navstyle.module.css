@@ -1,0 +1,27 @@
+:root{
+    --main-color : #13bbff;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+}
+header{
+    padding:1.5rem 10rem 0rem 10rem ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    font-size: 3rem;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+}
+.list li{
+    margin-right: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.list li:hover{
+    text-shadow: 5px 5px 25px var(--main-color) ;
+}

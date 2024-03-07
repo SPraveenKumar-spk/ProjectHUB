@@ -1,0 +1,63 @@
+:root{
+    --main-color : #13bbff;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+  }
+  *{
+    color: var(--text-color);
+  }
+.repo {
+    margin-left:20% ;
+    margin-right: 12rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+}
+
+.labelstyle{
+   background-color: var(--bg-color);
+    font-size: 25px;
+    font-weight: 500;
+}
+.inputstyles{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: var(--bg-color);
+}
+.common{
+    margin-top: 10px;
+}
+.media p{
+    margin-top: 10px;
+    border: 1px solid gray;
+    height: 5rem;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2.2rem;
+}
+.media h4{
+    margin-top: 15px;
+}
+.description textarea{
+    margin-top: 1rem;
+    background-color: var(--bg-color);
+    
+}
+
+.submit{
+    margin-top: 1rem;
+    margin-left: 45%;
+    width: 10rem;
+   
+}
+.submit button{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+}

@@ -1,0 +1,14 @@
+.footcontainer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;  
+    background-color: black;
+}
+
+.copy{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
